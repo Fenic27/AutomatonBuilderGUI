@@ -24,10 +24,7 @@ export default class TransitionWrapper extends SelectableObject {
     isCurved: boolean;
     priority: string;
 
-    
-
-    /** The node that this transition 
-     * is coming from. */
+    /** The node that this transition is coming from. */
     public get sourceNode() { return this._sourceNode; }
 
     private _destNode: NodeWrapper;

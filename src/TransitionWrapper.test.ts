@@ -14,7 +14,7 @@ import NodeWrapper from './NodeWrapper';
 import TokenWrapper from './TokenWrapper';
 import StateManager from './StateManager';
 import { Tool } from './Tool';
-/*
+
 // because Konva interacts with the DOM we need to mock it
 // to prevent errors when running tests in a Node.js environment
 jest.mock('konva', () => {
@@ -210,4 +210,3 @@ describe('TransitionWrapper Tests', () => {
     expect(secondTransition.priority).toBe('curve');
   });
 });
-*/

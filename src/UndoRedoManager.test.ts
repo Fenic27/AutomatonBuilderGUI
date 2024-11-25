@@ -5,11 +5,7 @@
  *
  */
 
-
-
 import UndoRedoManager, { Action, ActionData } from './UndoRedoManager';
-
-
 
 describe('UndoRedoManager Tests', () => {
   beforeEach(() => {
@@ -17,8 +13,6 @@ describe('UndoRedoManager Tests', () => {
     (UndoRedoManager as any)._stackLocation = -1;
     (UndoRedoManager as any)._listeners = new Set();
   });
-
-
 
   test('Push action and verify forward function is called', () => {
     // creating mock functions for forward and backward actions.
