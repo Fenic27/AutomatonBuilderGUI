@@ -7,7 +7,7 @@
     "build": "webpack && npm run build:tailwind && npm run build:cp-public",
     "build:tailwind": "npx tailwindcss -i ./public/input.css -o ./dist/output.css",
     "build:cp-public": "cpy 'public/**/*' dist --cwd=./ --parents",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
